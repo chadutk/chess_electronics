@@ -1,0 +1,5 @@
+sudo apt-get install -y python-smbus
+sudo apt-get install -y i2c-tools
+sudo raspi-config # enable i2c
+sudo apt-get install python3-pip
+sudo pip3 install adafruit-circuitpython-motorkit
